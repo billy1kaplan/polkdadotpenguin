@@ -1,0 +1,8 @@
+:80 {
+    route /graphql {
+        reverse_proxy localhost:3030
+    }
+    
+    root * out
+    file_server
+}

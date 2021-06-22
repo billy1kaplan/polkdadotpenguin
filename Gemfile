@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', '~>2.1.0'
+gem 'sinatra-contrib', '~>2.1.0'
+gem 'sinatra-activerecord'
+gem 'pg', '~>1.2.3'
+gem 'graphql', '~>1.12.12'
+gem 'puma'
+gem 'rake'
+gem 'rack-contrib'
